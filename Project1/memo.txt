@@ -1,0 +1,21 @@
+Scott Fenton
+Project 1 Questions
+
+1. It is a good idea to choose names like plus and minus for method names,so someone that
+is using the class does not need to know what is in the methods to use them.
+
+2. You can pass an array of Polynomial objects to the Arrays.sort method which requires an array
+of Comparable objects because we implemented the comparable interface. The interface overrode our
+compareTo method, allowing it to take in Polynomial objects.
+
+3. I used the Dr Java debugger to find errors in the polynomial class when I was
+getting null pointer exception errors. I thought that the debugger was useful when
+you identified an error you were encountering, but was not a magic answer to my problem.
+
+
+4. It was helpful to have the TestPolynomial class while writing the code
+in my Polynomial class because it allowed rigorous testing of our methods
+and we did not have to manually input every case over and over again.
+
+5. The javadoc web pages did not help me write the application class at the end.
+I mostly used the javadoc as a good visual for what each method was doing, and how they interacted.

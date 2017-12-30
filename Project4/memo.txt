@@ -1,0 +1,6 @@
+Scott Fenton
+Project 4
+
+1. My solution for upating the balance factors does not preserve the O(log n) behavior for the addElement and removeElement methods becuase I use a recursive method to calculate the new balance factor. With the O(log n) behavior of addElement and the O(n) behavior of the recursive method, makes this O(nlogn). 
+
+2. If you had given a height attribute of its sub-tree in each node, rather than a balance factor, it would still be possible to implement an AVL rebalancing strategy on the design. I would just have had to create a new method that calculated the balancing factor, which would have just been another step. The difference between the original method, is that I would have to create an equation for height of right subtree minus height of left subtree to determine if I needed to rebalance the tree.  

@@ -1,0 +1,34 @@
+/**
+ * CS110 Project 3 class PolynomialApp
+ * @author Bob Wilson
+ * @version July 6, 2009
+ * 
+ */
+
+import java.util.Arrays;
+
+public class PolynomialApp
+{
+  public static void main(String [] args)
+  {
+    Polynomial [] polynomials = new Polynomial[5];
+    
+    polynomials[0] = new Polynomial(7, 6, 5, 4);  
+    polynomials[1] = new Polynomial(4, 4, 4);  
+    polynomials[2] = new Polynomial(3, 3, 3);  
+    polynomials[3] = new Polynomial(2, 2, 2); 
+    polynomials[4] = new Polynomial(1, 1, 1);
+
+    
+    System.out.println("Before sorting:");
+    for (Polynomial p : polynomials)
+      System.out.println(p);    
+
+    Arrays.sort(polynomials);
+
+    
+    System.out.println("\nAfter sorting:");
+    for (Polynomial p : polynomials)
+      System.out.println(p);     
+  }
+}

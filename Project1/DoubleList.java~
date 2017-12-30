@@ -1,0 +1,8 @@
+public class DoubleList<T>{
+  private DoubleNode<T> first;
+  private DoubleNode<T> last;
+  private int count;
+  
+  public DoubleList(){
+    count = 0;
+    first = last = null;
